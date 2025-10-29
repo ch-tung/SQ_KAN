@@ -24,11 +24,9 @@ $Z$ can be determined from $\kappa$ and $A$.
 ---
 
 ## File 2: `input_xxx.csv`
-Each row contains a vector of structure factor values$S(Q)$corresponding to the potential parameters in the same row of `target_xxx.csv`.
-- Each$S(Q)$vector has **80 points** sampled over  
-  $$
-  Q = \{ 0.02, 0.04, 0.06, \ldots, 16.00 \}
-  $$
+Each row contains a vector of structure factor values $S(Q)$ corresponding to the potential parameters in the same row of `target_xxx.csv`.
+- Each $S(Q)$ vector has **80 points** sampled over  
+  $$Q = \{ 0.02, 0.04, 0.06, \ldots, 16.00 \}$$ 
   i.e. $Q_i = 0.02 \times i$ for $i = 1, 2, \ldots, 80$.
 - Columns correspond to these fixed$Q$-bins. 
 
