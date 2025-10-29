@@ -28,6 +28,6 @@ Each row contains a vector of structure factor values $S(Q)$ corresponding to th
 - Each $S(Q)$ vector has **80 points** sampled over  
   $$Q = \{ 0.02, 0.04, 0.06, \ldots, 16.00 \}$$ 
   i.e. $Q_i = 0.02 \times i$ for $i = 1, 2, \ldots, 80$.
-- Columns correspond to these fixed$Q$-bins. 
+- Columns correspond to these fixed $Q$-bins. 
 
 ---
